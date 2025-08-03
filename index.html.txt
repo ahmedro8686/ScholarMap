@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ScholarMap - Home</title>
+</head>
+<body>
+    <h1>فرص دراسية ومنح</h1>
+    <ul>
+        {% for opp in opportunities %}
+        <li>
+            <a href="/details/{{ opp.id }}">{{ opp.title }}</a> ({{ opp.country }}) - ينتهي في {{ opp.deadline }}
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ opportunity.title }}</title>
+</head>
+<body>
+    <h1>{{ opportunity.title }}</h1>
+    <p><strong>الدولة:</strong> {{ opportunity.country }}</p>
+    <p><strong>الفئة:</strong> {{ opportunity.category }}</p>
+    <p><strong>الوصف:</strong> {{ opportunity.description }}</p>
+    <p><strong>الرابط:</strong> <a href="{{ opportunity.link }}" target="_blank">{{ opportunity.link }}</a></p>
+    <p><strong>آخر موعد للتقديم:</strong> {{ opportunity.deadline }}</p>
+
+    <a href="/">⬅ العودة</a>
+</body>
+</html>
