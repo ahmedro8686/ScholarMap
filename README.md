@@ -6,52 +6,50 @@
 
 ## 📝 Description
 
-**ScholarMap** is a simple and user-friendly web application designed to help students discover educational opportunities, such as:
+ScholarMap is a web application designed to help students and learners from around the world find and access scholarships, fellowships, and free online courses. As someone who has personally struggled to find reliable and up-to-date information about educational opportunities, I created this platform to solve a real-life problem. Many students waste time browsing multiple websites, only to find outdated or incomplete scholarship information. ScholarMap aims to centralize this information and display it in an organized and user-friendly way.
 
-- Scholarships
-- Free online courses
-- Fellowship and internship programs
-
-The project is built with **Flask** and **SQLite**, and it displays a dynamic list of opportunities along with a dedicated detail page for each one.
+The project is built using Flask for the backend, SQLite for the database, and HTML/CSS for the frontend. It’s simple, responsive, and can be extended in the future. The opportunities are displayed in order of expiration date, and each opportunity has a dedicated detail page with full information.
 
 ---
 
 ## 🔍 Features
 
-- Automatically sorts opportunities by **expiration date**
-- Dedicated detail page for each opportunity
-- Uses a **SQLite** database
-- Simple and scalable structure
-- Easy to add new opportunities
+- Displays educational opportunities sorted by deadline
+- Clickable cards with brief info, leading to a detailed page for each opportunity
+- Easily add more opportunities by editing the database
+- Fully functional Flask routing system
+- Organized templates with clean HTML structure
+- Built-in SQLite database with simple schema
+- Mobile-friendly design with readable layout
 
 ---
 
 ## 📁 Project Files
 
-- `app.py`: The main Flask application file
-- `templates/index.html`: Displays all available opportunities
-- `templates/details.html`: Shows details for a selected opportunity
-- `static/style.css`: Simple CSS styling for the website
-- `README.md`: This documentation file
+- app.py: Main Flask application
+- templates/index.html: Homepage showing list of opportunities
+- templates/details.html: Details for each opportunity
+- static/style.css: Styling file
+- schema.sql: SQL script for creating the database
+- README.md: This documentation file
 
 ---
 
-## 🛠️ Database Setup
+## 🚀 How to Use
 
-The project uses **SQLite** for storing opportunity data. You need to create the database manually using:
-
-- `schema.sql`: Contains SQL commands to create the required tables
-
-Alternatively, you can use Python to generate the tables based on the structure shown in `app.py`.
+1. Clone the repository
+2. Run sqlite3 scholar.db < schema.sql to set up the database
+3. Launch app.py using Flask
+4. Visit the site in your browser to view available scholarships
+5. Click on any item for full details
 
 ---
 
 ## 👨‍💻 Developer Info
 
-- **Name**: Ahmed Mohamed
-- **Project Title**: ScholarMap
-- **GitHub Username**: [https://github.com/ahmedro8686](https://github.com/ahmedro8686)
-- **edX Username**: ahmed232_607
-- **City/Country**: Cairo, Egypt
-- **Date Recorded**: August 3, 2025
+- Name: Ahmed Mohamed  
+- edX Username: ahmed232_607  
+- Location: Cairo, Egypt  
+- GitHub: [ScholarMap on GitHub](https://github.com/ahmedro8686/ScholarMap)  
+- Date Recorded: August 3, 2025
 
