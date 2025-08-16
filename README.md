@@ -1,7 +1,5 @@
 # 🎓 ScholarMap – A Map for Scholarships and Free Courses
 
-#### 🎥 Video Demo: [Watch on YouTube](https://youtu.be/aWury8bdXWo?si=wGQ6fR9Lj3CScQH3)
-
 ---
 
 ## 📝 Description
@@ -176,6 +174,7 @@ More than just a coding project, ScholarMap is a social tool. It democratizes ac
 - Location: Cairo, Egypt
 - GitHub: [ScholarMap on GitHub](https://github.com/ahmedro8686/ScholarMap)
 - Date Recorded: August 3, 2025
+
 
 
 
